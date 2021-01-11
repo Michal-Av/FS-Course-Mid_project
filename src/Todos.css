@@ -1,0 +1,44 @@
+.card
+{
+    width: 350px;
+    border : 2px solid purple;
+    padding: 5px;
+
+}
+
+.cardAdd{
+    width: 350px;
+    padding: 5px;  
+}
+
+.cardfill {
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;    
+    width: 100%;
+}
+
+.cardback {
+    /* align-items: flex-start; */
+    /* margin-right: 10px;
+    border-radius: 3px; */
+    width: 60%; float: left;
+}
+
+.cardcontinue {
+    /* align-items: flex-end; */
+    margin-left: 50%;
+    border-radius: 3px;
+    
+}
+
+.button{
+    background-color: lightyellow;
+}
+.cardLeft
+{
+  width: 60%;
+  float: left;
+  margin-left: 100px;
+}
+

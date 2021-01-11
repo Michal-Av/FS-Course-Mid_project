@@ -1,0 +1,83 @@
+.center {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.container{
+  width: 100%;
+  padding: 10px;
+}
+
+.corner {
+  border-radius: 50px;
+  border: 2px solid black;
+  padding: 20px; 
+  width: 450px;  
+  flex: 1;
+  
+}
+
+.left{
+  width: 40%;
+  float: left;
+  border-radius: 50px;
+  border: 2px solid black;
+  padding: 20px; 
+  
+
+}
+
+.right{
+  overflow: hidden;
+  margin-left: 50%;
+  border: 2px solid black;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 390px;
+  scroll-behavior: smooth;
+
+  
+}
+
+.title{
+  margin-left: 50%;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between; 
+  
+}
+
+.cardTitle{
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+.cardfill {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;    
+  width: 100%;
+}
+
+.cardback {
+  /* align-items: flex-start; */
+  /* margin-right: 10px;
+  border-radius: 3px; */
+  width: 60%; float: left;
+}
+
+.cardcontinue {
+  /* align-items: flex-end; */
+  margin-left: 50%;
+  border-radius: 3px;
+  
+}
+
+.button{
+  background-color: lightyellow;
+}
+
